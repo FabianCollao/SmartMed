@@ -1,0 +1,6 @@
+C:\Users\fabia\source\repos\MedInteligente_FabianCollao\MedidorModel\bin\Debug\MedidorModel.dll
+C:\Users\fabia\source\repos\MedInteligente_FabianCollao\MedidorModel\bin\Debug\MedidorModel.pdb
+C:\Users\fabia\source\repos\MedInteligente_FabianCollao\MedidorModel\obj\Debug\MedidorModel.csproj.AssemblyReference.cache
+C:\Users\fabia\source\repos\MedInteligente_FabianCollao\MedidorModel\obj\Debug\MedidorModel.csproj.CoreCompileInputs.cache
+C:\Users\fabia\source\repos\MedInteligente_FabianCollao\MedidorModel\obj\Debug\MedidorModel.dll
+C:\Users\fabia\source\repos\MedInteligente_FabianCollao\MedidorModel\obj\Debug\MedidorModel.pdb

@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="MedInteligente_FabianCollao.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title></title>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="container-fluid bg-dark bg-gradient text-white">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+                <div class="container">
+                    <a class="navbar-brand text-secondary" href="Default.aspx">SmartMed</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+                        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="navbar-nav ml-auto " StaticDisplayLevels="2" Orientation="Horizontal">
+                            <StaticMenuItemStyle CssClass="nav-item text-light mr-3" />
+                            <DynamicMenuItemStyle CssClass="nav-item mr-3" />
+                            <StaticSelectedStyle CssClass="nav-item active text-white mr-3" />
+                        </asp:Menu>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="container-fluid mt-5">
+            <asp:ContentPlaceHolder ID="head" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</body>
+</html>
